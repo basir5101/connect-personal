@@ -1,0 +1,36 @@
+/* header top */
+.header-top img{
+    height: 50px;
+}
+.header-top ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 10px;
+}
+.header-top ul li a{
+    color: #615B9B;
+    border: 1px solid #615B9B;
+    padding: 2px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* header menu */
+
+.header-menu{
+    background-color: #2A264E;
+    line-height: 50px;
+}
+.header-menu li{
+    list-style: none;
+}
+.header-menu a{
+    color: white;
+    text-decoration: none;
+}
+.header-menu li:hover{
+    background-color: #00b85c;
+    transition: 0.3s;
+    cursor: pointer;
+}

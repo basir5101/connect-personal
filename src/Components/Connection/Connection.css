@@ -1,0 +1,53 @@
+.connection{
+    background-color: #615B9B;
+    color: white;
+    background-image: url('../../images/1x/header-background-image.png');
+    background-repeat: no-repeat;
+    background-position: -20px 10px;
+}
+.categories p{
+    font-size: 30px;
+}
+.connection li{
+    display: inline-block;
+    
+}
+.connection li input{
+    margin: 0px;
+}
+.connection li .submit-btn{
+    background-color: #2A264E;
+    color: white;
+    padding: 5px 40px;
+    border: 1px solid #877ddf;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.doctors, .engineer, .consult {
+    padding: 0;
+    margin: 0;
+}
+.doctors p, .engineer p, .consult p{
+    margin: 0;
+    padding: 0;
+}
+.doctors p a, .engineer p a, .consult p a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+.doctors-details{
+    background-color: #00b85c;
+    color: white;
+}
+.engineer-details{
+    background-color: #5aa1e2;
+    color: white;
+}
+.consult-details{
+    background-color: #877ddf;
+    color: white;
+}
